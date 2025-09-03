@@ -2,12 +2,21 @@
   "name": "site-vdom-digital",
   "version": "0.1.0",
   "private": true,
+  "description": "A technology institutional website showcasing services and information.",
+  "main": "src/index.tsx",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint"
   },
+  "keywords": [
+    "technology",
+    "institutional",
+    "website"
+  ],
+  "author": "Kauane Vieira",
+  "license": "MIT",
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",

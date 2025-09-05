@@ -8,7 +8,7 @@ export interface MenuItemProps {
 export default function MenuItem(props: MenuItemProps) {
   return (
     <Link href={props.url}>
-      <span className="text-zinc-500 hover:text-zinc-300 transition duration-300">{props.title}</span>
+      <span className="text-muted-foreground hover:text-foreground transition-colors duration-300">{props.title}</span>
     </Link>
   );
 }

@@ -1,3 +1,11 @@
+import Logo from "./logo";
+import Menu from "./menu";
+
 export default function Header() {
-  return <header>Header</header>;
+  return <header className="flex justify-center items-center h-[72px] fixed top-0 left-0 right-0  border-b border-zinc-800 bg-black bg-opacity-80 backdrop-blur-sm">
+    <div className="w-[1400px] h-full flex items-center gap-12">
+      <Logo />
+      <Menu />
+    </div>
+  </header>;
 }

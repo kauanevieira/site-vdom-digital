@@ -24,7 +24,7 @@ export default function Menu() {
           <SheetHeader>
             <SheetTitle>Menu de Navegação</SheetTitle>
           </SheetHeader>
-          <nav className="flex flex-col gap-4 mt-8">
+          <nav className="flex flex-col gap-4 mt-8 px-4">
             {menuItems.map((item) => (
               <MenuItem key={item.url} title={item.title} url={item.url} />
             ))}
@@ -43,7 +43,7 @@ export default function Menu() {
           ))}
         </nav>
         <Button asChild className="ml-auto">
-          <a href="/contact">Entre em contato</a>
+          <a href="/contact" className="text-sm">Entre em contato</a>
         </Button>
       </div>
     </>

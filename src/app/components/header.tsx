@@ -1,5 +1,5 @@
-import Logo from "./logo";
-import Menu from "./menu";
+import Logo from './logo';
+import Menu from './menu';
 
 export default function Header() {
   return (

@@ -1,0 +1,11 @@
+.next/
+build/
+node_modules/
+public/
+.git/
+.cache/
+dist/
+coverage/
+*.min.js
+package-lock.json
+yarn.lock

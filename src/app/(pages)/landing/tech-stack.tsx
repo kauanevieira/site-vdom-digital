@@ -1,9 +1,8 @@
-import { 
-  Code2, 
-  Database, 
-  Palette, 
-  Smartphone, 
-  Globe,
+import {
+  Code2,
+  Database,
+  Palette,
+  Smartphone,
   Zap,
   Shield,
   Cloud
@@ -105,7 +104,7 @@ export default function TechStack() {
     <section className="py-20 lg:py-32 relative">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-gray-50 dark:bg-gray-900/50">
-        <div className="absolute inset-0" 
+        <div className="absolute inset-0"
              style={{
                backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(59, 130, 246, 0.1) 1px, transparent 0)',
                backgroundSize: '20px 20px'

@@ -1,11 +1,10 @@
-import { 
-  Code2, 
-  Palette, 
-  Smartphone, 
-  Zap, 
-  Globe, 
-  Shield, 
-  TrendingUp, 
+import {
+  Code2,
+  Palette,
+  Smartphone,
+  Globe,
+  Shield,
+  TrendingUp,
   Users,
   ArrowRight
 } from 'lucide-react';

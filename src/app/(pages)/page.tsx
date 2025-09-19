@@ -1,4 +1,3 @@
-import { Title } from '../components/title';
 import Hero from './landing/hero';
 import Services from './landing/services';
 import TechStack from './landing/tech-stack';

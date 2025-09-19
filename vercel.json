@@ -1,9 +1,19 @@
 {
+  "functions": {
+    "src/app/under-construction/page.tsx": {
+      "maxDuration": 10
+    }
+  },
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/",
       "destination": "/under-construction",
-      "statusCode": 304
+      "statusCode": 307
+    },
+    {
+      "source": "/((?!under-construction|_next|api|favicon.ico|.*\\.).*)",
+      "destination": "/under-construction",
+      "statusCode": 307
     }
   ]
 }

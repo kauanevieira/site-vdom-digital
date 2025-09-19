@@ -1,13 +1,9 @@
-import { 
-  Award, 
-  Users, 
-  Target, 
+import {
+  Award,
+  Users,
+  Target,
   Heart,
   Code2,
-  Palette,
-  Smartphone,
-  Globe,
-  CheckCircle,
   Star,
   ArrowRight
 } from 'lucide-react';
@@ -113,7 +109,7 @@ export default function AboutPage() {
       <section className="py-20 lg:py-32 relative overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900" />
-        
+
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
           <div className="inline-flex items-center px-4 py-2 rounded-full border border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm mb-8">
             <Heart className="w-4 h-4 text-red-500 mr-2" />
@@ -173,7 +169,7 @@ export default function AboutPage() {
               </span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Democratizar o acesso à tecnologia de qualidade, ajudando empresas de todos os tamanhos 
+              Democratizar o acesso à tecnologia de qualidade, ajudando empresas de todos os tamanhos
               a alcançarem seus objetivos através de soluções digitais inovadoras e eficientes.
             </p>
           </div>

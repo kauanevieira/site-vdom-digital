@@ -1,8 +1,7 @@
-import { 
-  Code2, 
-  Smartphone, 
-  Palette, 
-  Globe,
+import {
+  Code2,
+  Smartphone,
+  Palette,
   Shield,
   TrendingUp,
   Zap,
@@ -126,7 +125,7 @@ export default function ServicesPage() {
       icon: Target
     },
     {
-      step: "02", 
+      step: "02",
       title: "Design & Prototipagem",
       description: "Criamos wireframes e protótipos interativos para validar a solução antes do desenvolvimento.",
       icon: Palette
@@ -219,7 +218,7 @@ export default function ServicesPage() {
                 <div className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r ${service.color} text-white`}>
                   <service.icon className="w-8 h-8" />
                 </div>
-                
+
                 <div>
                   <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-2">
                     {service.title}
@@ -341,11 +340,11 @@ export default function ServicesPage() {
               <div className="absolute -top-4 -left-4 w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-sm font-bold">
                 {step.step}
               </div>
-              
+
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 text-white mb-6">
                 <step.icon className="w-6 h-6" />
               </div>
-              
+
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                 {step.title}
               </h3>

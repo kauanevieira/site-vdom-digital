@@ -1,21 +1,18 @@
-import { 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Clock,
+import {
+  Mail,
+  Phone,
+  MapPin,
   Send,
   MessageCircle,
   User,
   Building,
   FileText,
-  CheckCircle,
   Github,
   Linkedin,
   Instagram,
   ArrowRight,
   Zap,
   Calendar,
-  Globe,
   Shield,
   Award
 } from 'lucide-react';

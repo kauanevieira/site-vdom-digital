@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "/under-construction",
+      "statusCode": 304
+    }
+  ]
+}

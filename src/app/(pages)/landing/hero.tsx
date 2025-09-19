@@ -19,24 +19,24 @@ export default function Hero() {
         <div className="inline-flex items-center px-4 py-2 rounded-full border border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm mb-8">
           <Zap className="w-4 h-4 text-blue-500 mr-2" />
           <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-            Soluções Digitais Inovadoras
+            Especialistas em Desenvolvimento Digital
           </span>
         </div>
 
         {/* Main heading */}
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black tracking-tight text-gray-900 dark:text-white mb-6">
-          <span className="block">O Framework Digital</span>
+          <span className="block">Transformamos Ideias</span>
           <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
-            para o seu Negócio
+            em Soluções Digitais
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed">
-          Impulsione sua presença digital com soluções profissionais que combinam{' '}
-          <span className="font-semibold text-blue-600 dark:text-blue-400">performance</span>,{' '}
-          <span className="font-semibold text-purple-600 dark:text-purple-400">design</span> e{' '}
-          <span className="font-semibold text-pink-600 dark:text-pink-400">inovação</span>.
+          Oferecemos serviços completos de desenvolvimento web e mobile com foco em{' '}
+          <span className="font-semibold text-blue-600 dark:text-blue-400">resultados</span>,{' '}
+          <span className="font-semibold text-purple-600 dark:text-purple-400">qualidade</span> e{' '}
+          <span className="font-semibold text-green-600 dark:text-green-400">crescimento</span> do seu negócio.
         </p>
 
         {/* CTA Buttons */}

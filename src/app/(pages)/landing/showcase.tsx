@@ -1,5 +1,4 @@
 import { 
-  ArrowRight, 
   ExternalLink, 
   Star,
   Award
@@ -220,17 +219,25 @@ export default function Showcase() {
       </div>
 
       {/* CTA Section */}
-      <div className="text-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 text-white">
-        <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-          Pronto para criar o próximo projeto de destaque?
+      <div className="text-center bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-3xl p-12">
+        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 text-white mb-6">
+          <ExternalLink className="w-8 h-8" />
+        </div>
+        <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white mb-4">
+          Quer ver mais do nosso trabalho?
         </h3>
-        <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-          Junte-se aos nossos clientes satisfeitos e transforme sua ideia em uma solução digital de alta qualidade.
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
+          Explore nosso portfólio completo com mais de 50 projetos desenvolvidos para clientes de diversos segmentos.
         </p>
-        <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-blue-600 bg-white hover:bg-gray-100 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group">
-          Ver Todos os Projetos
-          <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </button>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group">
+            Ver Portfólio Completo
+            <ExternalLink className="ml-2 w-5 h-5 group-hover:scale-110 transition-transform" />
+          </button>
+          <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 border border-gray-300 dark:border-gray-600 rounded-xl transition-all duration-300">
+            Solicitar Orçamento
+          </button>
+        </div>
       </div>
     </section>
   );

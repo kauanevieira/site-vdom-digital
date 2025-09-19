@@ -11,10 +11,6 @@ export default function Page() {
       <Services />
       <TechStack />
       <Showcase />
-      <Title
-        text="Novos Recursos"
-        subtitle="Impulsione sua presenca digital online com nossos servicoes profissionaise"
-      />
     </div>
   );
 }
